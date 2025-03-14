@@ -1,0 +1,53 @@
+{
+  "Name": "✨Quazar [FA]",
+  "GlobalProxy": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "8.8.8.8",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "https://dns.google",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "https://dns.google",
+  "DomesticDNSIP": "8.8.8.8",
+  "Geoipurl": "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat",
+  "LastUpdated": "1740183000",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:category-ir",
+    "geosite:cloudflare",
+    "geosite:apple",
+    "domain:hamrahcard.app",
+    "domain:snapp.taxi",
+    "domain:regexp:^.+\\\\.ir$",
+    "domain:regexp:.*\\\\.ir$"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:ir"
+  ],
+  "ProxySites": [
+    "geosite:category-ban-ru",
+    "geosite:discord",
+    "geosite:youtube",
+    "geosite:tiktok",
+    "geosite:signal"
+  ],
+  "ProxyIp": [
+    "geoip:discord",
+    "geoip:threema"
+  ],
+  "BlockSites": [
+    "geosite:category-ads-all",
+    "geosite:category-ads",
+    "geosite:yahoo-ads",
+    "geosite:spotify-ads",
+    "geosite:google-ads",
+    "geosite:apple-ads",
+    "geosite:amazon-ads",
+    "geosite:adobe-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
